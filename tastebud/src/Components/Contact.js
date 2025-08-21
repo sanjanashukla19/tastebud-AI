@@ -63,7 +63,7 @@ function ContactForm() {
 
   const sendEmail = () => {
     // Open the default email client with a pre-filled email
-    window.open(`mailto:parul.chaddha94@gmail.com?subject=Query_for_Tastebud&body=${query}`);
+    window.open(`mailto:trishashukla620@gmail.com?subject=Query_for_Tastebud&body=${query}`);
   };
 
   return (
