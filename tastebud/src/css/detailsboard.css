@@ -1,0 +1,44 @@
+  /* DetailsBoard.css */
+
+.details-board-container {
+  display: flex;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  background-color: #f5702d;
+  padding-top: 20px;
+  color: white;
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color: #faf8f8;
+  color: #f5702d;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+

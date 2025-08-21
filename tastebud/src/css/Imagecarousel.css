@@ -1,0 +1,293 @@
+/* 
+ .product-carousel {
+    position: relative;
+    overflow: hidden;
+  
+  }
+  
+  .product-container {
+    
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    gap: 2rem;
+  }
+  
+  .pre-btn,
+  .next-btn {
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+  
+  .next-btn p,
+  .pre-btn p {
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.436);
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    margin-top: 20px;
+    padding: 2rem;
+    box-shadow: 1px 3px 5px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 300px;
+    height: 400px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+  }
+  
+  .card__image {
+    height: 15rem;
+    width: 18rem;
+  }
+  
+  .title_car{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .card__title{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .card__btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+   
+  }
+  
+  
+  .card__body {
+   
+    margin: 10px;
+    text-align: center;
+  } 
+ */
+
+
+
+
+
+
+
+
+/* 
+
+ .button-container {
+  position: relative;
+}
+
+.pre-btn,
+.next-btn {
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.next-btn {
+  right: 0;
+}
+
+.next-btn p,
+.pre-btn p {
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.436);
+  box-shadow: 0px 0px 10px 1px black;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+ 
+ .product-carousel {
+  position: relative;
+  overflow: visible;
+}
+
+.product-container {
+  padding: 0 80px; 
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  gap: 2rem;
+  justify-content: flex-start; 
+}
+
+.pre-btn,
+.next-btn {
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.next-btn {
+  right: 0;
+}
+
+.next-btn p,
+.pre-btn p {
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.436);
+  box-shadow: 0px 0px 10px 1px black;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  margin-top: 20px;
+  padding: 2rem;
+  box-shadow: 1px 3px 5px;
+  text-align: center;
+  min-width: 300px;
+  max-width: 300px;
+  height: 400px;
+  background-color: black;
+  margin: 10px;
+  color: white;
+}
+
+.card__image {
+  height: 15rem;
+  width: 18rem;
+}
+
+.title_car {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card__btn {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.card__body {
+  margin: 10px;
+  text-align: center;
+}  */
+
+
+
+
+
+
+.product-carousel {
+  position: relative;
+  overflow: visible;
+ 
+}
+
+.product-container {
+  padding: 0 80px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display two cards side by side */
+  gap: 2rem; /* Gap between cards */
+  justify-content: flex-start; 
+ 
+}
+
+
+.card {
+  /* Remove display grid, no longer needed */
+  margin-top: 20px;
+  padding: 2rem;
+  box-shadow: 1px 3px 5px;
+  text-align: center;
+  min-width: 300px;
+  max-width: 300px;
+  height: 400px;
+  margin: 10px;
+  color: #f5702d;
+}
+
+.card__image {
+  height: 15rem;
+  width: 18rem;
+}
+
+.title_car {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.card__title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card__btn {
+  background-color: #fe9e0d;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 400;
+    color: white;
+    transition: 0.2s;
+  
+}
+
+.card__btn:hover{
+  background-color: #e48f0f;
+}
+
+.card__body {
+  margin: 10px;
+  text-align: center;
+  
+} 

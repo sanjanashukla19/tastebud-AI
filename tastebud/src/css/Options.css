@@ -1,0 +1,97 @@
+/* .options-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .options-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .options-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .option-card {
+    flex: 1;
+    padding: 20px;
+  
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .options-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    margin-top: 15rem;
+  }
+  
+  .options-heading {
+    /* font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center; */
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #4c4c4c;
+    text-align: center;
+    max-width: 900px;
+  }
+  
+  .options-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .option-card {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .option-card p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #6a6a6a;
+  }
+  
+  .learn-more-button {
+    background-color:#fe9e0d ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #f44336;
+  }
+  
